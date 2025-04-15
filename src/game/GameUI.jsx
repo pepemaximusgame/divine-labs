@@ -24,7 +24,7 @@ export const GameUI = () => {
         <img src="images/DexLogo.png" className="pointer-events-auto absolute top-8 right-20 w-4 h-4 transition duration-300 hover:scale-110 hover:rotate-5 hover:opacity-80" />
         </a>
 
-        <a href="https://x.com/fredthefish">
+        <a href="https://x.com/">
         <img src="images/xLogo.png" className="pointer-events-auto absolute top-8 right-14 w-4 h-4 transition duration-300 hover:scale-110 hover:rotate-5 hover:opacity-80" />
         </a>
 

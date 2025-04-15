@@ -71,7 +71,7 @@ export const Experience = () => {
         rotation-y={degToRad(30)}
         anchorY={"bottom"}
       >
-        MY LITTLE{"\n"}CAMPING
+        THE PEPE{"\n"} MAXIMUS
         <meshBasicMaterial
           color={bloomColor}
           toneMapped={false}
