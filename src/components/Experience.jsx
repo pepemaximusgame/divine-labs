@@ -57,13 +57,13 @@ export const Experience = () => {
     <>
      
       <mesh ref={meshFitCameraHome} position-z={1.5} visible={false}>
-        <boxGeometry args={[7.5, 2, 2]} />
+        <boxGeometry args={[6, 2, 2]} />
         <meshBasicMaterial color="orange" transparent opacity={0.5} />
       </mesh>
       <CameraControls ref={controls} />
       <Text
         font={"fonts/Poppins-Black.ttf"}
-        position-x={-1.3}
+        position-x={-0.5}
         position-y={-0.5}
         position-z={1}
         lineHeight={0.8}
@@ -100,7 +100,7 @@ export const Experience = () => {
         </mesh>
       </group> */}
 
-<group rotation-y={degToRad(-26)} position-x={2} position-y={-0.5}>
+<group rotation-y={degToRad(-26)} position-x={3} position-y={-0.5}>
       <Character scale={0.7} color={'orange'} animation={animation}/>
       </group>
 
