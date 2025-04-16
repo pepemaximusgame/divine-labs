@@ -20,7 +20,7 @@ export const GameUI = () => {
       </h2>
       )}
 
-        <a href="https://dexscreener.com/">
+        <a href="https://pump.fun/coin/FTyT45YzDFMpZyvPQdmeMGyuNvWVCP3mT8gLZRDapump">
         <img src="images/DexLogo.png" className="pointer-events-auto absolute top-8 right-20 w-4 h-4 transition duration-300 hover:scale-110 hover:rotate-5 hover:opacity-80" />
         </a>
 
@@ -28,7 +28,7 @@ export const GameUI = () => {
         <img src="images/xLogo.png" className="pointer-events-auto absolute top-8 right-14 w-4 h-4 transition duration-300 hover:scale-110 hover:rotate-5 hover:opacity-80" />
         </a>
 
-        <a href="https://dexscreener.com/">
+        <a href="https://pump.fun/coin/FTyT45YzDFMpZyvPQdmeMGyuNvWVCP3mT8gLZRDapump">
         <img src="images/teleLogo.png" className="pointer-events-auto absolute top-8 right-8 w-4 h-4 transition duration-300 hover:scale-110 hover:rotate-5 hover:opacity-80" />
         </a> 
 
