@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Loader } from '../components/Loader';
 import Banner from './Banner';
 import LogoShowcase from './LogoShowcase';
+import AnimatedCounter from './AnimatedCounter';
+import Roadmap from './Roadmap';
 const AppHome = () => {
   return (
     < >
@@ -13,6 +15,9 @@ const AppHome = () => {
      <Header/>
      <Banner/>
      <LogoShowcase/>
+     <AnimatedCounter/>
+     <Roadmap/>
+
     </Suspense>
     
   {/* <HomePage/> */}
