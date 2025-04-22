@@ -5,23 +5,24 @@ import HomeExperience from "./HomeExperience";
 import LogoShowcase from "./LogoShowcase";
 import { useNavigate } from "react-router-dom";
 import AnimatedCounter from "./AnimatedCounter";
+import BoxerExperience from "./BoxerExperience";
 
- const Banner=()=>{
+ const BoxerBanner=()=>{
     const navigate = useNavigate();
     return (
-        <section className="banner" id="home"> 
+        <section className="banner-boxer" id="home"> 
         <Container>
             <Row className="align-items-center ">
                 <Col xs={12} md={6} xl={6}>
-                <span className="tagline">Bigger  Better Stronger</span>
-                <h1>{'PEPE MAXIMUS'}<span className="wrap">!</span></h1>
+                {/* <span className="tagline">Bigger  Better Stronger</span> */}
+                <h1>{'Comrads'}<span className="wrap">!</span></h1>
                 <p>Born from the chaos,driven by vibes,backed by unshakable community,Pepe Maximus isn't just a meme - He is a movement!!</p>
-                <button className="pointer-events-auto" onClick={() => {navigate('/game')}}>Let's Play<ArrowRightCircle size={25}/></button>
+                {/* <button className="pointer-events-auto" onClick={() => {navigate('/game')}}>Let's Play<ArrowRightCircle size={25}/></button> */}
                 </Col>
                 <Col xs={12} md={6} xl={6}>
                 <figure>
                 <div className="">
-                <HomeExperience/>
+                <BoxerExperience/>
                 </div>
                 </figure>
                 </Col>
@@ -33,4 +34,4 @@ import AnimatedCounter from "./AnimatedCounter";
         
     )
  }
- export default Banner;
+ export default BoxerBanner;

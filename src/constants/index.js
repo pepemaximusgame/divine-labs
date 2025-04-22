@@ -35,6 +35,54 @@ const counterItems = [
   { value: 100, suffix: "%", label: "Anti Rug" },
 ];
 
+const fighters =[
+  {
+      title: "PEPE MAXIMUS",
+      description:"THis is pepe  maximus THis is pepe  maximus",
+      imgUrl:"/images/pepe/pepe1.jpg",
+  },
+  {
+      title: "PEPE MAXIMUS",
+      description:"THis is pepe  maximus THis is pepe  maximus",
+      imgUrl:"/images/pepe/pepe2.jpg",
+  },
+  {
+      title: "PEPE MAXIMUS",
+      description:"THis is pepe  maximus THis is pepe  maximus",
+      imgUrl:"/images/pepe/pepe6.jpg",
+  },
+  {
+      title: "PEPE MAXIMUS",
+      description:"THis is pepe  maximus THis is pepe  maximus",
+      imgUrl:"/images/pepe/pepe4.jpg",
+  },
+  {
+      title: "PEPE MAXIMUS",
+      description:"THis is pepe  maximus THis is pepe  maximus",
+      imgUrl:"/images/pepe/pepe5.jpg",
+  },
+  {
+      title: "PEPE MAXIMUS",
+      description:"OTHis is pepe  maximus THis is pepe  maximus",
+      imgUrl:"/images/pepe/pepe3.jpg",
+  },
+  {
+      title: "PEPE MAXIMUS",
+      description:"THis is pepe  maximus THis is pepe  maximus",
+      imgUrl:"/images/pepe/pepe7.jpg",
+  },
+  {
+      title: "PEPE MAXIMUS",
+      description:"STHis is pepe  maximus THis is pepe  maximus",
+      imgUrl:"/images/pepe/pepe8.jpg",
+  },
+  {
+      title: "PEPE MAXIMUS",
+      description:"THis is pepe  maximusTHis is pepe  maximus",
+      imgUrl:"/images/pepe/pepe9.jpg",
+  }
+]
+
 const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-1.png",
@@ -270,6 +318,7 @@ export {
    counterItems,
    expCards,
    expLogos,
+   fighters,
   // testimonials,
   // socialImgs,
   // techStackIcons,

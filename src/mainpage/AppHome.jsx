@@ -8,15 +8,26 @@ import Banner from './Banner';
 import LogoShowcase from './LogoShowcase';
 import AnimatedCounter from './AnimatedCounter';
 import Roadmap from './Roadmap';
+import Contract from './Contract';
+import Moments from './Moments';
+import Footer from './Footer';
+import BoxerBanner from './BoxerBanner';
 const AppHome = () => {
   return (
     < >
-    <Suspense fallback={<Loader />}>
+    <Suspense fallback={<Loader/>}>
      <Header/>
      <Banner/>
      <LogoShowcase/>
      <AnimatedCounter/>
-     <Roadmap/>
+     <Contract/>
+     <Moments/>
+     <LogoShowcase/>
+     <BoxerBanner/>
+     <Footer/>
+     {/* <LogoShowcase/>
+     <AnimatedCounter/>
+     <Roadmap/> */}
 
     </Suspense>
     

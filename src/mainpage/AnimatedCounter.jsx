@@ -7,6 +7,8 @@ import { counterItems } from "../constants";
 
 gsap.registerPlugin(ScrollTrigger);
 
+
+
 const AnimatedCounter = () => {
   const counterRef = useRef(null);
   const countersRef = useRef([]);
@@ -14,6 +16,7 @@ const AnimatedCounter = () => {
   useGSAP(() => {
     countersRef.current.forEach((counter, index) => {
       const numberElement = counter.querySelector(".counter-number");
+      if (!numberElement) return;
       const item = counterItems[index];
 
       // Set initial value to 0
@@ -26,8 +29,9 @@ const AnimatedCounter = () => {
         ease: "power2.out",
         snap: { innerText: 1 }, // Ensures whole numbers
         scrollTrigger: {
-          trigger: "#counter",
-          start: "top center",
+          trigger: counter, // Use the actual block
+          start: "top 80%", // More flexible
+          once: true,
         },
         // Add the suffix after counting is complete
         onComplete: () => {
@@ -36,9 +40,10 @@ const AnimatedCounter = () => {
       });
     }, counterRef);
   }, []);
+  
 
   return (
-    <div id="counter" ref={counterRef} className="padding-x-lg xl:mt-0 mt-32">
+    <div id="counter" ref={counterRef} className="padding-x-lg xl:mt-0 mt-5 mb-5 ml-5 mr-9">
       <div className="mx-auto grid-4-cols">
         {counterItems.map((item, index) => (
           <div
