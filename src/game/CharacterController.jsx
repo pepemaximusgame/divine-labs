@@ -23,7 +23,7 @@ const ROTATION_SPEED = 2.5;
 const vel = new Vector3();
 
 export const CharacterController = ({
-
+firstNonDeadPlayer=false,
     player = false,
     controls,
     state,
